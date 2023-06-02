@@ -12,17 +12,19 @@
 <script src="/triXchange/data.js"></script>
 <body>
     <!--Navbar-->
-    <header class="navbar navbar-dark bg-dark navbar-expand-md">
+    <header class="navbar navbar-light navbar-expand-md">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
+          <img src="images/triXchange-logo.png" alt="Company Logo" width="150" height="40">
         </a>
-    
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+<<<<<<< HEAD
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <button type="button" class="btn btn-dark login">Login</button>
+          <button type="button" class="btn btn-dark">Sign-Up</button>
+=======
     
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
@@ -33,32 +35,45 @@
               <a class="nav-link btn btn-primary" href="/triXchange/Pages/Signup/signup.html">Sign-up</a>
             </li>
           </ul>
+>>>>>>> e404b1637517cc67eabaa01c680bcec190085685
         </div>
       </div>
     </header>
     
-
     <!--divs displaying the three components-->
-    <div class="content">
+    <div class="outermost">
+      <div class="content">
         <div class="item">
             <img src="images/stocks.jpg" alt="stonks">
+<<<<<<< HEAD
+            <button class="button to-right" onclick="location.href='/triXchange/Pages/Stocks/index1.html'">
+              <div class="text">Stocks</div>
+=======
             <button class="button to-right" onclick="location.href='/triXchange/Pages/Stocks/index.html'">
               <div class="text3">Stocks</div>
+>>>>>>> e404b1637517cc67eabaa01c680bcec190085685
             </button>
         </div>
         <div class="item">
             <img src="images/crypto.png" alt="crypto">
             <button class="button  to-center">
-              <div class="text3">Crypto</div>
+              <div class="text">Crypto</div>
             </button>
         </div>
         <div class="item">
             <img src="images/nft.jpg" alt="nft">
+<<<<<<< HEAD
+            <button class="button  to-left">
+              <div class="text">NFT</div>
+=======
             <button class="button  to-left" onclick="location.href='/triXchange/Pages/NFT/index.html'">
               <div class="text3">NFT</div>
+>>>>>>> e404b1637517cc67eabaa01c680bcec190085685
             </button>
         </div>
     </div>
+    </div>
+
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </body>
