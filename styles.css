@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 .groww {
     display: inline-flex;
     justify-content: center;
@@ -86,6 +90,7 @@
   .button:hover {
     background-position: right bottom;
   }
+
   
   .text {
     text-align: center;
