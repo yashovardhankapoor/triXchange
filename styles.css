@@ -39,8 +39,8 @@ html {
 }
 
 .content {
-    width: 1300px;
-    height: 500px;
+    width: 900px;
+    height: 450px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -61,6 +61,8 @@ html {
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    height: 450px;
+    border: 50px white;
 }
 
 .content .item button {
@@ -68,6 +70,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 10px;
 }
 
 .outer {
@@ -75,17 +78,27 @@ html {
   }
   
   .button {
-    border: 1px solid black;
-    border-radius: 10px;
+    display: block;
+
     width: 100px;
     height: 50px;
-    display: block;
-  
-    background: linear-gradient(to left, black 50%, white 50%);
-    background-size: 200% 100%;
-    background-position: left bottom;
-    transition: all .5s ease-out;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    cursor: pointer;
+        border: 1px solid black;
+        background-color: transparent;
+        height: 50px;
+        width: 200px;
+        color: black;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+
+        background: linear-gradient(to left, white 50%, black 50%);
+        background-size: 200% 100%;
+        transition: all .5s ease-out;     
   }
+
 
   .button:hover {
     background-position: right bottom;
@@ -96,13 +109,13 @@ html {
     text-align: center;
     font-size: 15px;
     line-height: 30px; 
-    color: black;
+    color: rgb(16, 178, 231);
     transition: all .6s ease-out;
     display: block;
   }
   
   .text:hover {
-    color: white;  
+    color: rgb(16, 178, 231);  
   }
 
   .navbar-nav .nav-link:not(:last-child) {
@@ -127,10 +140,55 @@ html {
 }
 
 .outermost{
-    margin-top: 2px;
     background-color: black;
     height: 100vh;
-    background-image: "images/";
+}
+
+
+
+.container-button {
+  text-align: center;
+}
+
+.img-btn{
+  border: 1px solid white;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: monospace;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  height: 50px;
+}
+.img-btn1{
+  color: white;
+}
+
+.img-btn1:hover{
+  color: black;
+}
+
+.img-btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: white;
+  z-index: -1;
+  transition: 0.8s;
+}
+.img-btn1::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.img-btn1:hover::before{
+  height: 180%;
 }
 
 
