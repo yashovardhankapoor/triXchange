@@ -12,53 +12,45 @@
 <script src="/triXchange/data.js"></script>
 <body>
     <!--Navbar-->
-    <header class="navbar navbar-dark bg-dark navbar-expand-md">
+    <header class="navbar navbar-light navbar-expand-md">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
+          <img src="images/triXchange-logo.png" alt="Company Logo" width="150" height="40">
         </a>
-    
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-primary" href="#">Sign-up</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <button type="button" class="btn btn-dark login">Login</button>
+          <button type="button" class="btn btn-dark">Sign-Up</button>
         </div>
       </div>
     </header>
     
-
     <!--divs displaying the three components-->
-    <div class="content">
+    <div class="outermost">
+      <div class="content">
         <div class="item">
             <img src="images/stocks.jpg" alt="stonks">
             <button class="button to-right" onclick="location.href='/triXchange/Pages/Stocks/index1.html'">
-              <div class="text3">Stocks</div>
+              <div class="text">Stocks</div>
             </button>
         </div>
         <div class="item">
             <img src="images/crypto.png" alt="crypto">
             <button class="button  to-center">
-              <div class="text3">Crypto</div>
+              <div class="text">Crypto</div>
             </button>
         </div>
         <div class="item">
             <img src="images/nft.jpg" alt="nft">
             <button class="button  to-left">
-              <div class="text3">NFT</div>
+              <div class="text">NFT</div>
             </button>
         </div>
     </div>
+    </div>
+
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </body>
