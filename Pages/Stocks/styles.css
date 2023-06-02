@@ -2,12 +2,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    background-color: black;
     padding: 0;
 }
 
 /* Header Styles */
 header {
-    background-color: #007bff;
+    background-color: purple;
     color: white;
     padding: 20px;
 }
@@ -42,7 +43,10 @@ nav ul li a {
 
 main {
     padding-top: 20vh;
-    background-image: url("/triXchange/images/4.jpg");
+    background: url("/triXchange/images/stocks.webp");
+    background-repeat: no-repeat;
+    background-size: 150vh 100vh;
+    background-position: center;
     padding-bottom: 30vh;
 }
 /* Hero Section Styles */
@@ -53,22 +57,26 @@ main {
 }
 
 .hero h1 {
-    color: #007bff;
+    color: purple;
     font-size: 36px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
+    margin-left: 5vh;
 }
 
 .hero p {
     font-size: 18px;
-    color: white;
-    text-align: center;
+    color: lightblue;
+    text-align: left;
     margin-bottom: 30px;
+    margin-left: 25px;
 }
 
 .get-started-btn {
-    background-color: #007bff;
+    background-color: purple;
     color: white;
+    position: relative;
+    right: 64vh;
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
@@ -78,36 +86,73 @@ main {
 
 /* Investment Options Section Styles */
 .investment-options {
-    color: black;
+    background-color: black;
+    color: white;
     padding: 50px 0;
     text-align: center;
 }
 
 .investment-options h2 {
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 5vh;
+    margin-top: 1px;
 }
 
 .investment-cards {
+    padding-left: 2vh;
     display: flex;
     justify-content: center;
 }
 
 .card {
+    display: flexbox;
     margin: 0 10px;
     text-align: center;
 }
 
+#c2 {
+    margin: 0 20px;
+    text-align: center;
+}
+#c3 {
+    margin: 0 20px;
+    text-align: center;
+}
+#c4 {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.c01 {
+    width: fit-content;
+    margin: 0 10px;
+}
+
+.c02 {
+    width: 15vh;
+    margin: 0 10px;
+}
+
+.c03 {
+    width: 15vh;
+    margin: 0 10px;
+}
+
+.c04 {
+    width: 15vh;
+    margin: 0 10px;
+}
+
 .card img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 10px;
+    display: flexbox;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0px;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #f0f0f0;
-    padding: 20px;
-    
+    background-color: #d9d9d9;
+    padding: 5px;
     text-align: center;
 }
