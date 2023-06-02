@@ -774,6 +774,10 @@ header .container {
    * FOOTER
    */
 
+   .logo1{
+    margin-left: 45vh;
+   }
+
   .footer-top .logo{
     padding-left: 70vh;
     vertical-align: center; 
