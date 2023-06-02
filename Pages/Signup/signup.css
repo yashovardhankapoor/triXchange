@@ -8,7 +8,9 @@
 body{
   margin: 0;
   padding: 0;
-  background: linear-gradient(120deg,#2980b9, #040005);
+  background: url("/triXchange/images/signup_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   overflow: hidden;
 }
@@ -18,11 +20,12 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  background: white;
+  background: black;
   border-radius: 10px;
-  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  box-shadow: 10px 10px 15px white;
 }
 .center h1{
+  color: white;
   text-align: center;
   padding: 20px 0;
   border-bottom: 1px solid silver;
