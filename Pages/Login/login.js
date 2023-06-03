@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Check if the entered username and password match the stored data
       if (data.name === username && data.password === password) {
+        // Set the variable to true
+        localStorage.setItem('loggedIn', 'true');
         // Redirect to success.html if the authentication is successful
         window.location.href = 'success.html';
       } else {
