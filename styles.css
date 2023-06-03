@@ -191,4 +191,49 @@ html {
   height: 180%;
 }
 
+/* About triXchange Section */
+.about-section {
+  margin-top: 10vh;
+  background-color: black;
+  padding: 50px;
+}
+
+.about-section h2 {
+  color: #4e69d7;
+}
+
+.about-section p {
+  color: white;
+}
+
+/* Our Vision Section */
+.vision-section {
+  background-color: black;
+  padding: 50px;
+}
+
+.vision-section h2 {
+  color: #4e69d7;
+}
+
+.vision-section p {
+  color: white;
+}
+
+/* Copyrights Footer */
+.footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.img-btn2 {
+  
+}
+
 
