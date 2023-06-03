@@ -197,9 +197,9 @@ html {
 
 /* About triXchange Section */
 .about-section {
-  margin-top: 10vh;
+  margin-top: 15vh;
   background-color: black;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .about-section h2 {
@@ -213,7 +213,8 @@ html {
 /* Our Vision Section */
 .vision-section {
   background-color: black;
-  padding: 50px;
+  /* padding: 50px; */
+  margin-top: 5vh;
 }
 
 .vision-section h2 {
@@ -234,10 +235,6 @@ html {
 
 .footer p {
   margin: 0;
-}
-
-.img-btn2 {
-  
 }
 
 
