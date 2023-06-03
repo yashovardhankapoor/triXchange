@@ -534,6 +534,16 @@ body.active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
+.market .btn-link1 {
+  position: relative;
+  min-width: max-content;
+  font-weight: var(--fw-700);
+  transition: var(--transition-1);
+  margin-bottom: 4vh;
+  padding-left: 122.4vh;
+  padding-top: 0px;
+}
+
 .market .btn-link:is(:hover, :focus) { color: var(--blue-crayola); }
 
 .market .btn-link::after {

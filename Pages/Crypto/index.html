@@ -107,16 +107,14 @@
 
 
 
-
-
       <!-- 
         - #TREND
       -->
 
-      <section class="section trend" aria-label="crypto trend" data-section>
+      <!-- <section class="section trend" aria-label="crypto trend" data-section>
         <div class="container">
           <div class="widget">
-          <!-- TradingView Widget BEGIN -->
+          TradingView Widget BEGIN 
             <div class="tradingview-widget-container">
             <div class="tradingview-widget-container__widget"></div>
             <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
@@ -133,13 +131,13 @@
             }
             </script>
             </div>
-          <!-- TradingView Widget END -->
+          TradingView Widget END 
             </div>
 
           </div>
 
         </div>
-      </section>
+      </section> -->
       <!-- 
         - #MARKET
       -->
@@ -150,28 +148,35 @@
           <div class="title-wrapper">
             <h2 class="h2 section-title">Market Update</h2>
 
-            <a href="#" class="btn-link">See All Coins</a>
+            <a href="/triXchange/Pages/Crypto/index1.html" class="btn-link">See All Coins</a>
+           
           </div>
-
+          <!-- <div>
+           <a href="/triXchange/Pages/Crypto/index1.html" class="btn-link1">See top 10 Coins Coins</a>
+          </div> -->
           <div class="market-tab">
                 <tr class="table-row">                  
                     <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>                      
                     </button> 
                     <!-- TradingView Widget BEGIN -->
-                <div class="tradingview-widget-container">
-                <div class="tradingview-widget-container__widget"></div>
-                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
-                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-                {
-                "width": 1000,
-                "height": 490,
-                "defaultColumn": "overview",
-                "screener_type": "crypto_mkt",
-                "displayCurrency": "USD",
-                "colorTheme": "dark",
-                "locale": "in",
-                "isTransparent": false
-                }
+                <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+  {
+  "width": 1000,
+  "height": 490,
+  "defaultColumn": "overview",
+  "screener_type": "crypto_mkt",
+  "displayCurrency": "USD",
+  "colorTheme": "dark",
+  "locale": "in",
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
   </script>
 </div>
 <!-- TradingView Widget END -->                      
@@ -187,6 +192,23 @@
 
         </div>
       </section>
+
+      <!-- <script>
+        // Get the buttons within the widget
+        const buttons = document.querySelectorAll('.market-tab .add-to-fav');
+      
+        // Add a click event listener to each button
+        buttons.forEach(button => {
+          button.addEventListener('click', function() {
+            // Get the asset name from the data attribute
+            const assetName = this.getAttribute('data-add-to-fav');
+      
+            // Store the asset name or perform any desired action
+            console.log('Clicked on:', assetName);
+          });
+        });
+      </script> -->
+      
 
 
 
