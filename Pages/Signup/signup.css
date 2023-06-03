@@ -107,3 +107,18 @@ input[type="submit"]:hover{
   border-color: #2691d9;
   transition: .5s;
 }
+
+.signup_link {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.signup_link a {
+  color: lightblue;
+  text-decoration: solid;
+}
+
+.signup_link a:hover {
+  text-decoration: underline;
+}
