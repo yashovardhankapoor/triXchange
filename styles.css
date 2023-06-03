@@ -2,6 +2,10 @@ html {
   background-color: black;
 }
 
+.logout{
+  margin-left: 120vh;
+}
+
 .groww {
     display: inline-flex;
     justify-content: center;
