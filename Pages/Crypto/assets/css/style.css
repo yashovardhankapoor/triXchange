@@ -534,13 +534,14 @@ body.active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
+
 .market .btn-link1 {
   position: relative;
   min-width: max-content;
   font-weight: var(--fw-700);
   transition: var(--transition-1);
   margin-bottom: 4vh;
-  padding-left: 122.4vh;
+  padding-left: 135vh;
   padding-top: 0px;
 }
 
@@ -558,6 +559,21 @@ body.active { overflow: hidden; }
 }
 
 .market .btn-link:is(:hover, :focus)::after { background-color: var(--blue-crayola); }
+
+.market .btn-link1:is(:hover, :focus) { color: var(--blue-crayola); }
+
+.market .btn-link1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8%;
+  height: 2px;
+  background-color: var(--raisin-black);
+  transition: var(--transition-1);
+}
+
+.market .btn-link1:is(:hover, :focus)::after { background-color: var(--blue-crayola); }
 
 .market-tab {
   padding-left: 20vh;
