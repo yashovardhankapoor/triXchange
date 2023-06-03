@@ -9,7 +9,8 @@
 body{
   margin: 0;
   padding: 0;
-  background: url("/triXchange/images/login_bg.avif");
+  /* background: url("/triXchange/images/login_bg.avif"); */
+  background-color:gray;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
