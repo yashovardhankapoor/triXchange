@@ -83,6 +83,10 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
+#headimg {
+  margin-left: 0px;
+}
+
 button {
   color: inherit;
   background: none;

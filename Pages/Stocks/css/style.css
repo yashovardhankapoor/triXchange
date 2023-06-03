@@ -14,6 +14,24 @@
   height: 40px;
 }
 
+/* .tradingview-widget-container {
+  margin: 0 auto;
+  max-width: 510px;
+} */
+.tradingview-widget-container1 {
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* CSS styles for the widget itself */
+.tradingview-widget-container__widget1 {
+  flex-grow: 1;
+  min-width: 0; /* Allow the widget to shrink if necessary */
+}
+
 .navbar-buttons {
   padding-right: 80px;
 }
