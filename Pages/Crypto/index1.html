@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,33 +10,56 @@
     body {
         background-color: black;
     }
+
+    .go-back-button {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+    }
 </style>
 <body>
     <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-    <div id="tradingview_76166"></div>
-    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-    <script type="text/javascript">
-    new TradingView.widget(
-    {
-    "width": 1500,
-    "height": 1000,
-    "symbol": "BITSTAMP:BTCUSD",
-    "interval": "D",
-    "timezone": "Asia/Kolkata",
-    "theme": "dark",
-    "style": "1",
-    "locale": "en",
-    "toolbar_bg": "#f1f3f6",
-    "enable_publishing": false,
-    "withdateranges": true,
-    "allow_symbol_change": true,
-    "container_id": "tradingview_76166"
-  }
-    );
+    <div class="tradingview-widget-container">
+        <div id="tradingview_76166"></div>
+        <div class="tradingview-widget-copyright">
+            <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+                <span class="blue-text">Track all markets on TradingView</span>
+            </a>
+        </div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+            new TradingView.widget({
+                "width": 1500,
+                "height": 870,
+                "symbol": "BITSTAMP:BTCUSD",
+                "interval": "D",
+                "timezone": "Asia/Kolkata",
+                "theme": "dark",
+                "style": "1",
+                "locale": "en",
+                "toolbar_bg": "#f1f3f6",
+                "enable_publishing": false,
+                "withdateranges": true,
+                "allow_symbol_change": true,
+                "container_id": "tradingview_76166"
+            });
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+
+    <!-- Go Back Button -->
+    <button class="go-back-button" onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
     </script>
-  </div>
-  <!-- TradingView Widget END -->
 </body>
 </html>
