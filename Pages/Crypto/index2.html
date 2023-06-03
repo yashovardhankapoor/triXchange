@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .tradingview-widget-container {
+            float: left;
+        }
+        .tradingview-widget-container1 {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #000;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+          }
+    </style>
+</head>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container1">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "Bitcoin"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "Ethereum"
+      },
+      {
+        "description": "XRP",
+        "proName": "BINANCE:XRPUSDT"
+      },
+      {
+        "description": "SOL",
+        "proName": "BINANCE:SOLUSDT"
+      },
+      {
+        "description": "LITECOIN",
+        "proName": "BITSTAMP:LTCUSD"
+      },
+      {
+        "description": "DOGECOIN",
+        "proName": "BINANCE:DOGEUSDT"
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "dark",
+    "isTransparent": true,
+    "displayMode": "adaptive",
+    "locale": "in"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+<body>
+    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div id="tradingview_88760"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.widget(
+    {
+    "width": "130vh",
+    "height": "755vh",
+    "symbol": "BINANCE:BTCUSDT",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "1",
+    "locale": "in",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "withdateranges": true,
+    "range": "1D",
+    "hide_side_toolbar": false,
+    "allow_symbol_change": true,
+    "details": true,
+    "hotlist": true,
+    "container_id": "tradingview_88760",
+    "backgroundColor": "rgba(0, 0, 0, 1)",
+    "gridColor": "rgba(0, 0, 0, 0.06)",
+  }
+    );
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</body>
+</html>
